@@ -6,6 +6,31 @@
   box-sizing: border-box;
 }
 
+.d-flex{
+  display: flex;
+}
+
 body{
   font-family: 'Ubuntu', sans-serif;
+}
+
+header{
+  height: 60px;
+  background-color: black;
+  position: relative;
+}
+header .box-button{
+  position: absolute;
+  top: 4px;
+  right: 0;
+}
+
+header .box-button span{
+  color: white;
+  font-size: 14px;
+  margin-right: 5px;
+  display: inline-block;
+  background-color: #4a4a4a;
+  padding: 5px;
+  border-radius: 3px;
 }
