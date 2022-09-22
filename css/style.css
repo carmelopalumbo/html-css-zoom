@@ -97,11 +97,6 @@ footer{
   padding: 0 10px;
   justify-content: space-between;
 }
-
-footer .footer-left, .footer-middle, .footer-right{
-  justify-content: space-between;
-}
-
  footer .button{
   color: white;
   display: flex;
