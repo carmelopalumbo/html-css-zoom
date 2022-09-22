@@ -6,6 +6,8 @@
   box-sizing: border-box;
 }
 
+ /* utility */
+
 .d-flex{
   display: flex;
 }
@@ -14,9 +16,15 @@
   flex-wrap: wrap;
 }
 
+.p-relative{
+  position: relative;
+}
+
 body{
   font-family: 'Ubuntu', sans-serif;
 }
+
+/* header */
 
 header{
   height: 60px;
@@ -31,7 +39,7 @@ header .box-button{
 
 header .box-button span{
   color: white;
-  font-size: 14px;
+  font-size: 0.8vw;
   margin-right: 5px;
   display: inline-block;
   background-color: #4a4a4a;
@@ -43,6 +51,8 @@ header .box-button span{
 header .box-button span:hover{
   background-color: #b6b5b5;
 }
+
+/* main */
 
 main{
   height: calc(100vh - 160px);
@@ -66,7 +76,7 @@ main .card p{
   left: 0px;
   background-color: rgba(0, 0, 0, 0.7);
   padding: 5px;
-  font-size: 14px;
+  font-size: 0.8vw;
 }
 
 main .card img{
@@ -79,7 +89,26 @@ main .card img::before{
   content: '\f131';
 }
 
+/* footer */
+
 footer{
   background-color: #222222;
   height: 100px;
+  padding: 0 10px;
+  justify-content: space-between;
 }
+
+footer .footer-left, .footer-middle, .footer-right{
+  justify-content: space-between;
+}
+
+ footer .button{
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+ }
+
+ footer .button i{
+  font-size: 1.5vw;
+ }
