@@ -38,7 +38,7 @@ header .box-button{
 
 header .box-button span{
   color: white;
-  font-size: 0.8vw;
+  font-size: 0.9rem;
   margin-right: 5px;
   display: inline-block;
   background-color: #4a4a4a;
@@ -75,7 +75,7 @@ main .card p{
   left: 0px;
   background-color: rgba(0, 0, 0, 0.7);
   padding: 5px;
-  font-size: 0.8vw;
+  font-size: 0.9rem;
 }
 
 main .card img{
@@ -114,17 +114,17 @@ footer{
   flex-wrap: wrap;
   justify-content: center;
   cursor: pointer;
-  font-size: 0.7vw;
+  font-size: 0.9rem;
  } 
 
  footer .button i{
   padding-bottom: 7px;
-  font-size: 1.5vw;
+  font-size: 1.5rem;
  }
 
  footer .button p,
  footer .button-end{
-  font-size: 0.7vw;
+  font-size: 0.9rem;
  }
 
  footer .button:active i{
